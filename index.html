@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam's Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+           integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-toggle" id="nav-toggle">
+        <i class="uil uil-bars"></i>
+    </div>
+
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="#" class="nav-logo-text">MB</a>
+            </div>
+
+            <div class="nav-menu">
+                <div class="menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn-share">
+                <i class="uil uil-share-alt social-share"></i>
+            </div>
+
+            <div class="nav-close" id="nav-close">
+                <i class="uil uil-times"></i>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-container container grid">
+               
+
+            <div class="home-data">
+                <h1 class="home-title">Hi, I'm Mariam</h1>
+                <h3 class="home-subtitle">Web Developer</h3>
+                <p class="home-description">Junior IT specialist with practical experience in Python, JavaScript, web development, and UI/UX design.</p>
+                <a href="#about" class="button">
+                    <i class="uil uil-user button-icon"></i>
+                    More About me!
+                </a>
+            </div>
+
+            <div class="my-info">
+                <div class="info-item">
+                     <div>
+                        <h3 class="info-title">LinkedIn</h3>
+                      <a href="https://www.linkedin.com/in/mariam-bregvadze-094ba5388/"><span class="info-subtitle">Mariam Bregvadze</span></a>  
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="uil uil-whatsapp info-icon"></i>
+
+                    <div>
+                        <h3 class="info-title">Whatsapp</h3>
+                        <span class="info-subtitle">+995 555 48 75 75</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="uil uil-envelope-edit info-icon"></i>
+
+                    <div>
+                        <h3 class="info-title">Email</h3>
+                        <span class="info-subtitle">mbregvadze07@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title" data-heading="My Intro">About me</h2>
+
+            <div class="about-container container grid">
+                <img src="images/profile.JPG" alt="#" class="about-img">
+
+                <div class="about-data">
+                    <h3 class="about-heading">Hi, I'm Mariam Bregvadze from Tbilisi, Georgia</h3>
+                    <p class="about-description">Motivated junior <b>IT specialist</b>  developing skills through hands-on experience in web development and
+design using <b>Python, JavaScript (React, HTML5, CSS3), and UI/UX principles</b> . I’m eager to keep learning
+new technologies and to apply my knowledge in real projects. I also have experience working with people
+and organizing tasks from past roles, which helps me collaborate well in team settings.</p>
+
+                    <div class="about-info">
+                        <div class="about-box">
+                            <i class="uil uil-award about-icon"></i>
+                            <h3 class="about-title">Experience</h3>
+                            <span class="about-subtitle">3+ Years</span>
+                        </div>
+
+                        <div class="about-box">
+                            <i class="uil uil-suitcase-alt about-icon"></i>
+                            <h3 class="about-title">Completed</h3>
+                            <span class="about-subtitle">Practical courses</span>
+                        </div>
+
+                        <div class="about-box">
+                            <i class="uil uil-headphones-alt about-icon"></i>
+                            <h3 class="about-title">Support</h3>
+                            <span class="about-subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="button"><i class="uil uil-navigator button-icon"></i>Contact me</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section-title" data-heading="My Journey">Qualifications</h2>
+                    <h3 class="qualification-title"><i class="uil uil-graduation-cap"></i><b>Education & Practical courses </b></h3>
+
+            <div class="qualification-container container grid">
+                <div class="education">
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Academy of Digital Industries</h3>
+                            <p class="timeline-text"> React (JavaScript Library)</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2023</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Academy of Digital Industries</h3>
+                            <p class="timeline-text">Programming in HTML5 with JavaScript and CSS3 </p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2023</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">TBC Academy</h3>
+                            <p class="timeline-text"> UI/UX Design Course </p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2024</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">TBC Academy</h3>
+                            <p class="timeline-text"> Introduction to Programming Using Python</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2024</span>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-title">Business and Technology University</h3>
+                            <p class="timeline-text">Bachelor’s Degree in Informational Technologies </p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i>2025-present</span>
+                        </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title" data-heading="My Abilities">My Experience</h2>
+
+            <div class="skills-container container grid">
+                <div class="skills-tabs">
+                    <div class="skills-header skills-active" data-target="#frontend">
+                        <i class="uil uil-brackets-curly skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Frontend Developer</h1>
+                            <span class="skills-subtitle">More than 3 years</span>
+                            
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-header" data-target="#design">
+                        <i class="uil uil-swatchbook skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">UI / UX Design</h1>
+                            <span class="skills-subtitle">2 years</span>
+                            
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+
+                    <div class="skills-header" data-target="#backend">
+                        <i class="uil uil-server-network skills-icon"></i>
+
+                        <div>
+                            <h1 class="skills-title">Backend Developer</h1>
+                            <span class="skills-subtitle">More than 1 years</span>
+
+                        </div>
+
+                        <i class="uil uil-angle-down skills-arrow"></i>
+                    </div>
+                </div>
+
+                <div class="skills-content">
+                    <div class="skills-group skills-active" data-content id="frontend">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">HTML</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">CSS</h3>
+                                    <span class="skills-number">70%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Javascript</h3>
+                                    <span class="skills-number">In progress</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 50%;"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">React</h3>
+                                    <span class="skills-number">In progress</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-group" data-content id="design">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Figma</h3>
+                                    <span class="skills-number">90%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>                          
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skills-group" data-content id="backend">
+                        <div class="skills-list grid">
+                            <div class="skills-data">
+
+                            <div class="skills-data">
+                                <div class="skills-titles">
+                                    <h3 class="skills-name">Python</h3>
+                                    <span class="skills-number">80%</span>
+                                </div>
+
+                                <div class="skills-bar">
+                                    <span class="skills-percentage" style="width: 80%;"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title" data-heading="Get in Touch">Contact me</h2>
+
+            <div class="contact-container container grid">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="uil uil-envelope-edit contact-card-icon"></i>
+                            <h3 class="contact-card-title">Email</h3>
+                            <span class="contact-card-data">mbregvadze07@gmail.com</span>
+                            <span class="contact-button">Write me </span>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="uil uil-whatsapp contact-card-icon"></i>
+                            <h3 class="contact-card-title">Whatsapp</h3>
+                            <span class="contact-card-data">+995 555 48 75 75</span>
+                            <span class="contact-button">Write me</span>
+                        </div>
+
+                        <div class="contact-card">
+                            <img src="images/linkedin.png" alt="">
+                            <h3 class="contact-card-title">LinkedIn</h3>
+                            <span class="contact-card-data">Mariam Bregvadze</span>
+                            <a href="https://www.linkedin.com/in/mariam-bregvadze-094ba5388/" target="_blank"><span class="contact-button">Click here </span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+<!-- ------------------ FOOTER CODE ----------------------- -->
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-container container grid">
+                    <div>
+                        <h1 class="footer-title">Mariam</h1>
+                        <span class="footer-subtitle">Thanks for checking out my portfolio.
+</span>
+                    </div>
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="#services" class="footer-links">Services</a>
+                        </li>
+                        <li>
+                            <a href="#work" class="footer-links">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer-links">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/mariambregvdze" target="_blank" class="footer-social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/mariambregvdze/" target="_blank" class="footer-social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer-copy">&#169; <a href="https://codepen.io/leonam-silva-de-souza">ULTRA CODE</a>. All rights reserved</p>
+                <p class="credits">Credits: Freepik · Google Gemini · Ultra Code (CodePen)</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
